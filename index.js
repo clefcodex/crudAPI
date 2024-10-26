@@ -2,7 +2,6 @@ const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
 require("dotenv").config();
-const Product = require("./models/product.model");
 const productRoute = require("./routes/product.route");
 
 const PASSWORD = process.env.PASSWORD;
